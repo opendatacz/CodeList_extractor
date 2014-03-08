@@ -1,4 +1,4 @@
-package cz.opendata.linked.vvz.extractor;
+package cz.opendata.linked.codelist.extractor;
 
 import com.vaadin.ui.*;
 import cz.cuni.mff.xrg.odcs.commons.configuration.*;

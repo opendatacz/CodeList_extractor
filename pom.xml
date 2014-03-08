@@ -16,8 +16,8 @@
 
     <properties>
         <dpu.description>My first DPU implementation.</dpu.description>
-        <dpu.package>cz.opendata.linked.vvz.extractor</dpu.package>
-        <dpu.mainClass>cz.opendata.linked.vvz.extractor.CodeList_extractor</dpu.mainClass>
+        <dpu.package>cz.opendata.linked.codelist.extractor</dpu.package>
+        <dpu.mainClass>cz.opendata.linked.codelist.extractor.CodeList_extractor</dpu.mainClass>
     </properties>
 
 
