@@ -7,7 +7,7 @@
         <artifactId>module-base</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>CodeList_extractor</artifactId>
+    <artifactId>Tarql_extractor</artifactId>
     <packaging>bundle</packaging>
     <version>0.0.1</version>
 	<description>
@@ -16,9 +16,33 @@
 
     <properties>
         <dpu.description>My first DPU implementation.</dpu.description>
-        <dpu.package>cz.opendata.linked.codelist.extractor</dpu.package>
-        <dpu.mainClass>cz.opendata.linked.codelist.extractor.CodeList_extractor</dpu.mainClass>
+        <dpu.package>cz.opendata.linked.tarql.extractor</dpu.package>
+        <dpu.mainClass>cz.opendata.linked.tarql.extractor.Tarql_extractor</dpu.mainClass>
     </properties>
+
+
+
+	<repositories>
+		<repository>
+			<id>lib</id>
+			<name>lib</name>
+			<url>file://${project.basedir}/lib</url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.deri.tarql</groupId>
+			<artifactId>tarql</artifactId>
+			<version>1.0.0</version>
+			<!--<scope>runtime</scope>-->
+
+		</dependency>
+
+	</dependencies>
+
 
 
 </project>
