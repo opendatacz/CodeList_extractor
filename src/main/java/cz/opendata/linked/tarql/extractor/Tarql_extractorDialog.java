@@ -13,6 +13,7 @@ public class Tarql_extractorDialog extends BaseConfigDialog<Tarql_extractorConfi
     private GridLayout mainLayout;
 	private TextArea input_sparqlQuery;
 	private TextField input_filenameOrURI;
+	private CheckBox input_headers;
 
 
     public Tarql_extractorDialog() {
@@ -67,7 +68,6 @@ public class Tarql_extractorDialog extends BaseConfigDialog<Tarql_extractorConfi
 		input_sparqlQuery.setImmediate(true);
 		input_sparqlQuery.setWidth("100%");
 		input_sparqlQuery.setHeight("150px");
-		input_sparqlQuery.setDescription("");
 
 	    mainLayout.addComponent(   input_sparqlQuery);
 

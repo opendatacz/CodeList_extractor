@@ -9,18 +9,15 @@
     </parent>
     <artifactId>Tarql_extractor</artifactId>
     <packaging>bundle</packaging>
-    <version>0.0.1</version>
+    <version>1.0.1</version>
 	<description>
-		DPU implementation
+		Convert CSV and Excel files to RDF using SPARQL syntax
 	</description>
 
     <properties>
-        <dpu.description>My first DPU implementation.</dpu.description>
         <dpu.package>cz.opendata.linked.tarql.extractor</dpu.package>
-        <dpu.mainClass>cz.opendata.linked.tarql.extractor.Tarql_extractor</dpu.mainClass>
+        <dpu.mainClass>Tarql_extractor</dpu.mainClass>
     </properties>
-
-
 
 	<repositories>
 		<repository>
@@ -30,15 +27,13 @@
 		</repository>
 	</repositories>
 
-
 	<dependencies>
 
 		<dependency>
 			<groupId>org.deri.tarql</groupId>
 			<artifactId>tarql</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 			<!--<scope>runtime</scope>-->
-
 		</dependency>
 
 	</dependencies>
